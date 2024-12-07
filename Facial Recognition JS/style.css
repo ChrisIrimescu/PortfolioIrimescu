@@ -1,0 +1,44 @@
+  
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #ffd700, #ffcc00);
+}
+
+canvas {
+    position: absolute;
+}
+#imgContainer {
+    position: fixed;
+    bottom: 20px; /* Poziționăm la 20px de marginea de jos a paginii */
+    right: 20px; /* Poziționăm la 20px de marginea din dreapta a paginii */
+  }
+  #textContainer {
+    position: fixed;
+    bottom: 100px; /* Poziționăm la 20px de marginea de jos a paginii */
+    left: 50%; /* Plasăm la jumătatea distanței pe axa orizontală */
+    transform: translateX(-50%); /* Împingem textul înapoi cu jumătatea dimensiunii sale */
+    color: black; /* Schimbăm culoarea textului la negru (opțional) */
+    font-size: 50px; /* Setăm dimensiunea fontului (opțional) */
+    font-family: 'Vladimir Script', cursive;
+  }
+  #imgContainer2 {
+    position: fixed;
+    bottom: 20px; /* Poziționăm la 20px de marginea de jos a paginii */
+    left: 20px; /* Poziționăm la 20px de marginea din stanga a paginii */
+  }
+  #video {
+    width: 600px;
+    height: 450px;
+    margin: 20px; /* Adăugăm o margine pentru a putea fi contorizată */
+    border: 4px solid #44ff00; /* Adăugăm un border solid */
+    border-radius: 10px; /* Adăugăm o ușoară curbare la colțuri */
+  }
+  
+  
+    
